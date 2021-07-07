@@ -1,0 +1,87 @@
+body{
+    background-image: url(Biblioteca-digitala-imagine-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width:30px;
+    margin: 15px 20px;
+    margin-top: 1%;
+}
+#logo img{
+    border:1px solid rgba(175, 175, 175, 0);
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+  }
+
+  /* .reg_img
+{
+	height: 630px;
+	margin-top: 0px;
+} */
+
+.box1
+{
+	height: 330px;
+	width: 450px;
+	background-color: rgb(8, 120, 128);
+	margin: 60px auto;
+	opacity: .9;
+	color: rgb(207, 199, 199);
+	padding: 20px;
+}
+
+form .login
+{
+	margin: auto 50px;
+}
+
+nav{
+    display: flex;
+    /* background-color:rgba(245, 243, 238, 0.7); */
+    padding:0px;
+    width: 99.3%;
+    /* padding:0px; */
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+/* #signup{
+    display: block;
+    float: right;
+    /* margin-top: 0px; */
+    /* padding-top: 0%;
+}
+#signup img{
+    height: 60px;
+    width: 60px;
+    border:1px solid rgba(175, 175, 175, 0);
+    border-radius: 30px;
+    cursor: pointer; */
+    /* margin-top: 0px;
+    padding-top: 0%;
+}
+#signup img:hover{
+    box-shadow: 2px 3px 6px 6px rgba(49, 47, 47, 0.5);
+} */
+#signup{
+    display: block;
+    margin: 15px 25px;
+    margin-left: 95%;
+    margin-top: -4%;
+}
+#signup img{
+    height: 60px;
+    width: 60px;
+    border:1px solid rgba(175, 175, 175, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+#signup img:hover{
+    box-shadow: 2px 3px 6px 6px rgba(175, 172, 172, 0.5);
+}

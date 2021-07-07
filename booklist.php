@@ -1,0 +1,91 @@
+<?php
+include 'config.php';
+$tablecreate = "CREATE TABLE `booklist`
+                (`bookid` INT(10) NOT NULL AUTO_INCREMENT,
+                 `bookname` VARCHAR(200) NOT NULL,
+                 `authorname` VARCHAR(100) NOT NULL,
+                 `pageno` INT(10) NOT NULL,
+                 PRIMARY KEY(`bookid`)
+                )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT = 1001";
+$q = mysqli_query($connect,$tablecreate);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Ice-And-Stone-2020-Week-1', 'The Earthrise Institute','10') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Ice-And-Stone-2020-Week-2', 'The Earthrise Institute','14') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('The CEO Magazine', 'Jaya Kumar','48') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Mars 2020Exploration Mission Guide', 'Rocket Stream','80') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Ek bijane gamata rahie', 'Kajal Oza Vaidya','101') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Tulsi Kyaro', 'Zaverchand Meghani','151') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Gaban', 'Munshi Premchand','309') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Sevasadan', 'Munshi Premchand','300') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('A STORY OF BRITISH EMPIRE', 'P.J.Marshall','380') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('COMMUNAL CONFLICT IN INDIA', 'Priti Sahai','59') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('FROM HERE TO FOREVER', 'ELLEN G. WHITE','18') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('ISSUE IN TWENTITH-CENTURY (WORLD HISTORY)', 'Sneh Mahajan','16') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Gulzar', 'Gulzar','168') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Shabd Sur na Sathiya', 'Manoj Joshi','209') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('HIDE AND SEEK', 'T. Albert','27') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('GINGER THE GIRAFEE', 'T. Albert','17') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('DOING MY CHORES', 'T. Albert','20') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('ABE THE SERVICE DOG', 'T. Albert','25') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('POEM COLLECTION', 'William Butler Yeats','476') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('THE POEMS OF SHAKESPEARE', 'SHAKESPEARE','506') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Adivasi Sanskrutik Varso', 'Dr. Bhagvandas Patel','68') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Suvarnadvipa', 'R.C. Majumdar','495') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Ancient India in Historical Outline', 'D.N.Jha','286') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('A day in the Life of Maya of Mohenjo-Daro', 'Pulak Biswas','26') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Environmental Science', 'Dr. Y. K. sinh','319') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Environmental Studies', 'Erach Bharucha','361') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Air Pollution', 'Daniel vallero','967') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Water Pollution', 'Erach Bharucha','459') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('QUANTUM GRAVITY', 'Rodrigo Sobreiro','110') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Astronomy', 'ANDREW FRAKNOI','1200') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Fibre to Fabric', 'Seema Sekhri','11') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('General Science', 'Rajiv Arun Patole','148') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Feast', 'Yotam Ottolenghi','24') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Gujarati Recipes', 'Vaishali Parekh','39') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('A BETTER POLITICS', 'DANNY DORLING','191') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Politics by Aristotle', 'Aristotle','192') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('Books about Invention and Innovation', 'Davis, Kathryn and Gilbert Ford','16') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('World Rivers', 'Core Knowledge Foundation','62') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('A HAND BOOK FOR TEACHING SPORTS', '-','154') ";
+$run = mysqli_query($connect,$insert);
+$insert = "INSERT INTO `booklist`(`bookname`, `authorname`, `pageno`) VALUES ('General financial rules', 'Ministry of finance','208') ";
+$run = mysqli_query($connect,$insert);
+?>

@@ -1,0 +1,16 @@
+.welcome{
+    background-image: url(welcome.jpeg);
+    height: 450px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+    padding-left: 80px;
+}
+.welcome u{
+    line-height: 9; 
+    color: white; 
+    font-weight: 700; 
+    font-size: 50px; 
+    text-decoration: none; 
+    font-family: 'Roboto Slab', serif;
+}

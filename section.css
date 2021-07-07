@@ -1,0 +1,126 @@
+.section1i,.section2i,.section3i,.section4i,.section6i,.section7i,.section8i,.section9i,.section10i,.section11i,.section12i,.section13i{
+    display: flex;
+    background-color: aliceblue;
+    border:2px solid red;
+    width:100%;
+    margin: 30px 0px;
+    border-radius: 10px;
+    box-shadow: 3px 0px 7px 0px black;
+}
+div h2{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 160px;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+div h2:hover{
+    cursor: pointer;
+}
+.section1i a{ 
+    background-image: url("magazine.jpeg");
+    background-repeat: no-repeat;
+    width:100%;
+    height: 350px;
+    background-size: cover;
+    color: rgb(31, 27, 27);
+    text-decoration: none;
+}
+.section2i a{
+    background-repeat: no-repeat;
+    width:100%;
+    height: 350px;
+    background-image: url("Novel.jpeg");
+    background-size: cover;
+    text-decoration: none;
+}
+.section3i a{
+    background-repeat: no-repeat;
+    width:100%;
+    height: 350px;
+    background-size: cover;
+    background-image: url("History.jpeg");
+    
+    text-decoration: none;
+}
+.section4i a{
+    background-repeat: no-repeat;
+    width:100%;
+    height: 350px;
+    background-size: cover;
+    background-image: url("shayari.jpeg");
+    
+    text-decoration: none;
+}
+.section6i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("Kids.jpeg");
+    
+    text-decoration: none;
+}
+.section7i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("Poems.jpeg");
+    
+    text-decoration: none;
+}
+.section8i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("civilization.jpeg");
+    
+    text-decoration: none;
+}
+.section9i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("Environment.jpeg");
+    
+    text-decoration: none;
+}
+.section10i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("Science.jpeg");
+    text-decoration: none;
+}
+.section11i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("cooking.jpeg");
+    
+    text-decoration: none;
+}
+.section12i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("polit.jpeg");
+    
+    text-decoration: none;
+}
+.section13i a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+    background-image: url("generalknowledge.jpeg");
+    
+    text-decoration: none;
+}
